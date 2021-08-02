@@ -1,0 +1,194 @@
+<html>
+
+<title>戦車道大作戦統計</title>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="main_style.css" />
+
+
+<body>
+
+<div>
+	<table id="team-status">
+		<tr id="header">
+			<th></th>
+			<th>隊長スキルなしとの発射速度</th>
+			<th>隊長スキル発動時の発射速度</button></th>
+		</tr>
+		<tr id="team-1">
+			<th>
+				＜戦車1＞<br />
+				攻撃：<input type="text" id="firepower"/>　装填：<input type="text" id="reload"/><br />
+				<button id="member-1-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+				<button id="member-2-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+				<button id="member-3-skill" class="team-skill" data-skill-type="tn">装填UPなし</button><br />
+				<button id="member-4-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+				<button id="member-5-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+				<button id="member-6-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+			</th>
+			<th class="result"></th>
+			<th class="result"></th>
+		</tr>
+		<tr id="team-2">
+			<th>
+				＜戦車2＞<br />
+				攻撃：<input type="text" id="firepower"/>　装填：<input type="text" id="reload"/><br />
+				<button id="member-1-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+				<button id="member-2-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+				<button id="member-3-skill" class="team-skill" data-skill-type="tn">装填UPなし</button><br />
+				<button id="member-4-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+				<button id="member-5-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+				<button id="member-6-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+			</th>
+			<th class="result"></th>
+			<th class="result"></th>
+		</tr>
+		<tr id="team-3">
+			<th>
+				＜戦車3＞<br />
+				攻撃：<input type="text" id="firepower"/>　装填：<input type="text" id="reload"/><br />
+				<button id="member-1-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+				<button id="member-2-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+				<button id="member-3-skill" class="team-skill" data-skill-type="tn">装填UPなし</button><br />
+				<button id="member-4-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+				<button id="member-5-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+				<button id="member-6-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+			</th>
+			<th class="result"></th>
+			<th class="result"></th>
+		</tr>
+		<tr id="team-4">
+			<th>
+				＜戦車4＞<br />
+				攻撃：<input type="text" id="firepower"/>　装填：<input type="text" id="reload"/><br />
+				<button id="member-1-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+				<button id="member-2-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+				<button id="member-3-skill" class="team-skill" data-skill-type="tn">装填UPなし</button><br />
+				<button id="member-4-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+				<button id="member-5-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+				<button id="member-6-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+			</th>
+			<th class="result"></th>
+			<th class="result"></th>
+		</tr>
+		<tr id="team-5">
+			<th>
+				＜戦車5＞<br />
+				攻撃：<input type="text" id="firepower"/>　装填：<input type="text" id="reload"/><br />
+				<button id="member-1-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+				<button id="member-2-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+				<button id="member-3-skill" class="team-skill" data-skill-type="tn">装填UPなし</button><br />
+				<button id="member-4-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+				<button id="member-5-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+				<button id="member-6-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+			</th>
+			<th class="result"></th>
+			<th class="result"></th>
+		</tr>
+		<tr id="friend">		
+			<th>
+				＜友軍＞<br />
+				攻撃：<input type="text" id="firepower"/>　装填：<input type="text" id="reload"/><br />
+				<button id="member-1-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+				<button id="member-2-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+				<button id="member-3-skill" class="team-skill" data-skill-type="tn">装填UPなし</button><br />
+				<button id="member-4-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+				<button id="member-5-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+				<button id="member-6-skill" class="team-skill" data-skill-type="tn">装填UPなし</button>
+			</th>
+			<th class="result"></th>
+			<th class="result"></th>
+		</tr>
+	</table>
+	
+	<table id="leader-skill-status">
+		<tr>
+			<th colspan="2">隊長スキル</th>
+			<th colspan="2" rowspan="2">全部隊総ダメージ統計</th>
+		</tr>
+		<tr>
+			<th colspan="2"><button id="leader-skill-selector" data-skill-type="ln">装填UPに繋がりなし</button></th></tr>
+		<tr>
+			<th>ターン数</th>
+			<th>スキル発動状態</th>
+			<th>期待値</th>
+			<th>標準偏差</th>
+		</tr>
+		<tr>
+			<th>一ターン目</th>
+			<th><button id="turn-1" class="leader-skill-status" data-activated="false">発動なし</button></th>
+			<th class="brigade-statistics"></th>
+			<th class="brigade-statistics"></th>
+		</tr>
+		<tr>
+			<th>二ターン目</th>
+			<th><button id="turn-2" class="leader-skill-status" data-activated="false">発動なし</button></th>
+			<th class="brigade-statistics"></th>
+			<th class="brigade-statistics"></th>
+		</tr>
+		<tr>
+			<th>三ターン目</th>
+			<th><button id="turn-3" class="leader-skill-status" data-activated="false">発動なし</button></th>
+			<th class="brigade-statistics"></th>
+			<th class="brigade-statistics"></th>
+		</tr>
+		<tr>
+			<th>四ターン目</th>
+			<th><button id="turn-4" class="leader-skill-status" data-activated="false">発動なし</button></th>
+			<th class="brigade-statistics"></th>
+			<th class="brigade-statistics"></th>
+		</tr>
+		<tr>
+			<th>五ターン目</th>
+			<th><button id="turn-5" class="leader-skill-status" data-activated="false">発動なし</button></th>
+			<th class="brigade-statistics"></th>
+			<th class="brigade-statistics"></th>
+		</tr>
+		<tr>
+			<th colspan="2">連合協力戦一回の総ダメージ</th>
+			<th class="brigade-statistics"></th>
+			<th class="brigade-statistics"></th>
+		</tr>
+		<tr>
+			<th colspan="2">連合協力戦を繰り返す回数</th>
+			<th colspan="2"><input type="text" id="play-number"/></th>
+		</tr>
+		<tr>
+			<th colspan="2">全連合協力戦の総ダメージ</th>
+			<th class="total"></th>
+			<th class="total"></th>
+		</tr>
+		<tr>
+			<th colspan="2">95％信頼区間</th>
+			<th class="total"></th>
+			<th class="total"></th>
+		</tr>
+	</table>
+	
+	<table id="control">
+		<tr><th><button class="control" id="start-calculation" data-activated="false">統計始め</button></th></tr>
+		<tr><th><button class="control" id="change-display">情報切替</button></th></tr>
+	</table>
+
+</div>
+
+
+
+
+
+
+
+
+</body>
+
+<script src="senshadou_code.js"></script>
+<script src="senshadou_main.js"></script>
+
+</html>
+
+
+
+
+
+
+

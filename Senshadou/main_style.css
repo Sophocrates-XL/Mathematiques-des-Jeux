@@ -1,0 +1,93 @@
+button {
+	font-family: UD Digi Kyokasho N-R;
+	font-size: 12px;
+	background-color: #COCOFF;
+}
+
+table {
+	border: 2px solid black;
+	font-family: UD Digi Kyokasho N-R;
+	font-size: 12px;
+}
+
+tr, th {
+	border: 1px solid black;
+}
+
+table#team-status {
+	display: inline-block;
+	float: left;
+	margin-right: 8px;
+}
+
+table#leader-skill-status {
+	margin-bottom: 8px;
+}
+
+
+
+input#firepower, #reload {
+	font-family: UD Digi Kyokasho N-R;
+	font-size: 10px;
+	width: 48px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+b.highlight {
+	color: #000080;
+}
+
+button.team-skill {
+	width: 66px;
+	font-size: 10px; 
+}
+
+button#leader-skill-selector {
+	width: 160px;
+	font-size: 12px;
+}	
+
+button.leader-skill-status {
+	width: 72px;
+	font-size: 12px;
+}
+
+button.control {
+	width: 144px;
+	font-family: UD Digi Kyokasho N-B;
+	font-size: 16px;
+}
+
+span.max-rate-highlight {
+	color: #FF0000;
+}
+
+
+th.result {
+	width: 224px;
+	background-color: #F0F0FF;
+}
+
+th.brigade-statistics, .total {
+	width: 96px;
+	height: 24px;
+	background-color: #F0F0FF;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
